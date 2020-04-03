@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0B30D724377172005DFC84 /* HistoryRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30D624377172005DFC84 /* HistoryRootViewController.swift */; };
+		0E0B30E32437A2A9005DFC84 /* SendHistoryConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30E22437A2A9005DFC84 /* SendHistoryConfirmView.swift */; };
+		0E0B30E52437A2C2005DFC84 /* SendHistoryConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30E42437A2C2005DFC84 /* SendHistoryConfirmViewController.swift */; };
+		0E0B30E72437A2CD005DFC84 /* SendHistoryConfirmViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30E62437A2CD005DFC84 /* SendHistoryConfirmViewModelType.swift */; };
+		0E0B30E92437A2D6005DFC84 /* SendHistoryConfirmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30E82437A2D6005DFC84 /* SendHistoryConfirmViewModel.swift */; };
+		0E0B30EB2437A2EE005DFC84 /* SendHistoryConfirmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30EA2437A2EE005DFC84 /* SendHistoryConfirmModel.swift */; };
+		0E0B30ED2437A2F6005DFC84 /* SendHistoryConfirmModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30EC2437A2F6005DFC84 /* SendHistoryConfirmModelType.swift */; };
+		0E0B30EF2437A314005DFC84 /* SendHistoryProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30EE2437A314005DFC84 /* SendHistoryProgressViewController.swift */; };
+		0E0B30F12437A31A005DFC84 /* SendHistoryProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F02437A31A005DFC84 /* SendHistoryProgressView.swift */; };
+		0E0B30F32437A323005DFC84 /* SendHistoryProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F22437A323005DFC84 /* SendHistoryProgressViewModel.swift */; };
+		0E0B30F52437A32E005DFC84 /* SendHistoryProgressViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F42437A32E005DFC84 /* SendHistoryProgressViewModelType.swift */; };
+		0E0B30F72437A337005DFC84 /* SendHistoryProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F62437A337005DFC84 /* SendHistoryProgressModel.swift */; };
+		0E0B30F92437A342005DFC84 /* SendHistoryProgressModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F82437A342005DFC84 /* SendHistoryProgressModelType.swift */; };
 		0E153F39242D43D100340838 /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3DD5B4242B764100C092E7 /* RxSwiftExt.framework */; };
 		0E22F9202434A117008AD8EB /* RedStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22F91F2434A117008AD8EB /* RedStatusCard.swift */; };
 		0E22F9222434A486008AD8EB /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22F9212434A486008AD8EB /* UIButton+BackgroundColor.swift */; };
@@ -237,6 +250,19 @@
 
 /* Begin PBXFileReference section */
 		01D8F6CEA947903B8972BB1F /* Pods-ProteGOTests.debug_prod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProteGOTests.debug_prod.xcconfig"; path = "Target Support Files/Pods-ProteGOTests/Pods-ProteGOTests.debug_prod.xcconfig"; sourceTree = "<group>"; };
+		0E0B30D624377172005DFC84 /* HistoryRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryRootViewController.swift; sourceTree = "<group>"; };
+		0E0B30E22437A2A9005DFC84 /* SendHistoryConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryConfirmView.swift; sourceTree = "<group>"; };
+		0E0B30E42437A2C2005DFC84 /* SendHistoryConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryConfirmViewController.swift; sourceTree = "<group>"; };
+		0E0B30E62437A2CD005DFC84 /* SendHistoryConfirmViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryConfirmViewModelType.swift; sourceTree = "<group>"; };
+		0E0B30E82437A2D6005DFC84 /* SendHistoryConfirmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryConfirmViewModel.swift; sourceTree = "<group>"; };
+		0E0B30EA2437A2EE005DFC84 /* SendHistoryConfirmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryConfirmModel.swift; sourceTree = "<group>"; };
+		0E0B30EC2437A2F6005DFC84 /* SendHistoryConfirmModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryConfirmModelType.swift; sourceTree = "<group>"; };
+		0E0B30EE2437A314005DFC84 /* SendHistoryProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryProgressViewController.swift; sourceTree = "<group>"; };
+		0E0B30F02437A31A005DFC84 /* SendHistoryProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryProgressView.swift; sourceTree = "<group>"; };
+		0E0B30F22437A323005DFC84 /* SendHistoryProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryProgressViewModel.swift; sourceTree = "<group>"; };
+		0E0B30F42437A32E005DFC84 /* SendHistoryProgressViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryProgressViewModelType.swift; sourceTree = "<group>"; };
+		0E0B30F62437A337005DFC84 /* SendHistoryProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryProgressModel.swift; sourceTree = "<group>"; };
+		0E0B30F82437A342005DFC84 /* SendHistoryProgressModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryProgressModelType.swift; sourceTree = "<group>"; };
 		0E22F91F2434A117008AD8EB /* RedStatusCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedStatusCard.swift; sourceTree = "<group>"; };
 		0E22F9212434A486008AD8EB /* UIButton+BackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+BackgroundColor.swift"; sourceTree = "<group>"; };
 		0E22F9242434A6F8008AD8EB /* GeneralRecommendationsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralRecommendationsCard.swift; sourceTree = "<group>"; };
@@ -504,6 +530,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0B30D42437712A005DFC84 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30D92437A1ED005DFC84 /* SendHistoryProgress */,
+				0E0B30D82437A1CF005DFC84 /* SendHistoryConfirm */,
+				0EB65C73243525C200491507 /* HistoryOverview */,
+				0E0B30D524377158005DFC84 /* HistoryRootViewController */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		0E0B30D524377158005DFC84 /* HistoryRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30D624377172005DFC84 /* HistoryRootViewController.swift */,
+			);
+			path = HistoryRootViewController;
+			sourceTree = "<group>";
+		};
+		0E0B30D82437A1CF005DFC84 /* SendHistoryConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30DD2437A20A005DFC84 /* Model */,
+				0E0B30DC2437A204005DFC84 /* View */,
+				0E0B30DB2437A1FE005DFC84 /* ViewModel */,
+				0E0B30DA2437A1F7005DFC84 /* ViewController */,
+			);
+			path = SendHistoryConfirm;
+			sourceTree = "<group>";
+		};
+		0E0B30D92437A1ED005DFC84 /* SendHistoryProgress */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30E12437A244005DFC84 /* Model */,
+				0E0B30E02437A23E005DFC84 /* View */,
+				0E0B30DF2437A22E005DFC84 /* ViewModel */,
+				0E0B30DE2437A222005DFC84 /* ViewController */,
+			);
+			path = SendHistoryProgress;
+			sourceTree = "<group>";
+		};
+		0E0B30DA2437A1F7005DFC84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30E42437A2C2005DFC84 /* SendHistoryConfirmViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E0B30DB2437A1FE005DFC84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30E62437A2CD005DFC84 /* SendHistoryConfirmViewModelType.swift */,
+				0E0B30E82437A2D6005DFC84 /* SendHistoryConfirmViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E0B30DC2437A204005DFC84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30E22437A2A9005DFC84 /* SendHistoryConfirmView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E0B30DD2437A20A005DFC84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30EA2437A2EE005DFC84 /* SendHistoryConfirmModel.swift */,
+				0E0B30EC2437A2F6005DFC84 /* SendHistoryConfirmModelType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E0B30DE2437A222005DFC84 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30EE2437A314005DFC84 /* SendHistoryProgressViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E0B30DF2437A22E005DFC84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30F22437A323005DFC84 /* SendHistoryProgressViewModel.swift */,
+				0E0B30F42437A32E005DFC84 /* SendHistoryProgressViewModelType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E0B30E02437A23E005DFC84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30F02437A31A005DFC84 /* SendHistoryProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E0B30E12437A244005DFC84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E0B30F62437A337005DFC84 /* SendHistoryProgressModel.swift */,
+				0E0B30F82437A342005DFC84 /* SendHistoryProgressModelType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0E22F9232434A6C6008AD8EB /* GeneralRecommendationsCard */ = {
 			isa = PBXGroup;
 			children = (
@@ -814,7 +949,7 @@
 		0E9DCC9E2430C80700C2670D /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				0EB65C73243525C200491507 /* HistoryOverview */,
+				0E0B30D42437712A005DFC84 /* History */,
 				83252A822432202E001E6D63 /* Root */,
 				83252A952432248A001E6D63 /* Onboarding */,
 				838289AB24332EFF0054347B /* Registration */,
@@ -1941,10 +2076,12 @@
 				0E9DCC8824300CC600C2670D /* Constants+KeychainKeys.swift in Sources */,
 				83512C42243522C2007DB8AD /* OnboardingVIewModelType.swift in Sources */,
 				83512C4024351EAA007DB8AD /* OnboardingViewModel.swift in Sources */,
+				0E0B30F32437A323005DFC84 /* SendHistoryProgressViewModel.swift in Sources */,
 				0E22F92E2434DFDE008AD8EB /* DangerStatusCardBottomModule.swift in Sources */,
 				838289C6243330320054347B /* RegistrationSendCodeViewModel.swift in Sources */,
 				838289D5243331110054347B /* RegistrationVerifyCodeViewModelType.swift in Sources */,
 				0E22F9282434A861008AD8EB /* UIStackView+AddArrangedSubviews.swift in Sources */,
+				0E0B30E92437A2D6005DFC84 /* SendHistoryConfirmViewModel.swift in Sources */,
 				0E9DDA6E2430D2D9002D879F /* DebugAssembly.swift in Sources */,
 				83252A6C24314C99001E6D63 /* RegisterDeviceResult.swift in Sources */,
 				833181932433A09B00A8E18D /* UIImage+AspectRatio.swift in Sources */,
@@ -1958,12 +2095,14 @@
 				0E6D2610242E956F0037A80C /* Logger.swift in Sources */,
 				8356F93C2436BFF60075FF20 /* ScreensDebugItems.swift in Sources */,
 				83512C382434FFE4007DB8AD /* OnboardingStepView.swift in Sources */,
+				0E0B30EB2437A2EE005DFC84 /* SendHistoryConfirmModel.swift in Sources */,
 				836801702432400500678DBD /* RegistrationAssembly.swift in Sources */,
 				877F3F7C2434E89900F774C7 /* AdvertiserMode.swift in Sources */,
 				871208D62430C6A600DA0A4D /* Constants+Bluetooth.swift in Sources */,
 				0EB65C812435285300491507 /* HistoryOverviewViewModelType.swift in Sources */,
 				0E9DCC942430984A00C2670D /* EncountersManager.swift in Sources */,
 				0EB65C832435285E00491507 /* HistoryOverviewViewController.swift in Sources */,
+				0E0B30D724377172005DFC84 /* HistoryRootViewController.swift in Sources */,
 				0E96532B242F436B00ADD300 /* LogLevel.swift in Sources */,
 				83DC1EED24361781006E54A9 /* DefaultsServiceType.swift in Sources */,
 				0EB65C7B2435279E00491507 /* HistoryOverviewModel.swift in Sources */,
@@ -1995,6 +2134,7 @@
 				83252A18242F9C11001E6D63 /* UrlRequestBuilderType.swift in Sources */,
 				0E9DCCAB2430CA5A00C2670D /* RegisteredEncountersDebugViewModelType.swift in Sources */,
 				0EB65C852436195200491507 /* HistoryAssembly.swift in Sources */,
+				0E0B30EF2437A314005DFC84 /* SendHistoryProgressViewController.swift in Sources */,
 				0EE60C32242FDB2D00D29048 /* RealmManager.swift in Sources */,
 				838289BD24332FB20054347B /* RegistrationSendCodeModelType.swift in Sources */,
 				0E8DED45243480F400D7F806 /* YellowStatusCardView.swift in Sources */,
@@ -2012,10 +2152,12 @@
 				0ECE7A212430E48200EED942 /* BluetoothDebugItems.swift in Sources */,
 				0E965352242F81D400ADD300 /* DebugMenu.swift in Sources */,
 				83512C282434D06F007DB8AD /* OnboardingStatusStepView.swift in Sources */,
+				0E0B30F52437A32E005DFC84 /* SendHistoryProgressViewModelType.swift in Sources */,
 				0E9DCCA92430CA4500C2670D /* RegisteredEncountersDebugModelType.swift in Sources */,
 				874AAC9D2435E96F00FF7332 /* ProteGoDeviceEvent.swift in Sources */,
 				877F3F852435216C00F774C7 /* ExpiringBeaconId.swift in Sources */,
 				8382897C24332D840054347B /* UIView+AddSubviews.swift in Sources */,
+				0E0B30E32437A2A9005DFC84 /* SendHistoryConfirmView.swift in Sources */,
 				0EE60C51242FF40500D29048 /* FilesCoordinator.swift in Sources */,
 				0EE60C3A242FE03100D29048 /* ProteGOError.swift in Sources */,
 				8368016C24323FE400678DBD /* RootAssembly.swift in Sources */,
@@ -2024,6 +2166,7 @@
 				0EE4E9002432717F00EA05ED /* L10n.swift in Sources */,
 				838289BB24332F9E0054347B /* RegistrationSendCodeModel.swift in Sources */,
 				0EB65C872436620E00491507 /* Constants+UI.swift in Sources */,
+				0E0B30F92437A342005DFC84 /* SendHistoryProgressModelType.swift in Sources */,
 				0ECE7A1F2430E3EE00EED942 /* BluetoothAssembly.swift in Sources */,
 				83252A9C24322549001E6D63 /* OnboardingView.swift in Sources */,
 				0E965355242F82B900ADD300 /* GeneralDebugItems.swift in Sources */,
@@ -2034,6 +2177,7 @@
 				0EB65C892436713200491507 /* RegistrationVerifyCodeViewModelType.swift in Sources */,
 				0E8DED302433CCCF00D7F806 /* DangerStatusManagerType.swift in Sources */,
 				836DF51B24334C14000C00C0 /* RegistrationViewModel.swift in Sources */,
+				0E0B30E52437A2C2005DFC84 /* SendHistoryConfirmViewController.swift in Sources */,
 				836DF51F24334C29000C00C0 /* RegistrationModel.swift in Sources */,
 				83252A7024314D17001E6D63 /* ConfirmRegistrationResult.swift in Sources */,
 				83828A052433350C0054347B /* FontStyle.swift in Sources */,
@@ -2046,6 +2190,7 @@
 				83512C48243581F1007DB8AD /* KeyboardManagerType.swift in Sources */,
 				83512C2A2434D07D007DB8AD /* OnboardingBluetoothStepView.swift in Sources */,
 				0E9DCC922430983A00C2670D /* EncountersManagerType.swift in Sources */,
+				0E0B30ED2437A2F6005DFC84 /* SendHistoryConfirmModelType.swift in Sources */,
 				83512C3A24350B70007DB8AD /* StatusDescriptionsContainerView.swift in Sources */,
 				83680164243227D700678DBD /* DashboardView.swift in Sources */,
 				0EE60C41242FF14100D29048 /* Resolver+Utils.swift in Sources */,
@@ -2056,6 +2201,8 @@
 				0E9DCC9D2430C7F100C2670D /* RegisteredEncountersDebugScreenView.swift in Sources */,
 				0EE60C5F2430015E00D29048 /* SecretsGenerator.swift in Sources */,
 				8356F9382436B4270075FF20 /* RegistrationSendCodeViewModel.swift in Sources */,
+				0EB65C882436712C00491507 /* RegistrationSendCodeViewModel.swift in Sources */,
+				0E0B30E72437A2CD005DFC84 /* SendHistoryConfirmViewModelType.swift in Sources */,
 				83512C192434BF00007DB8AD /* NavigationButtonsView.swift in Sources */,
 				838289C4243330200054347B /* RegistrationSendCodeViewModelType.swift in Sources */,
 				0E9DCCA12430C8C200C2670D /* CustomView.swift in Sources */,
@@ -2070,10 +2217,12 @@
 				0EE60C23242FDAA400D29048 /* Encounter.swift in Sources */,
 				0E8DED412433E21100D7F806 /* GreenStatusCardView.swift in Sources */,
 				0E22F9252434A6F8008AD8EB /* GeneralRecommendationsCard.swift in Sources */,
+				0E0B30F12437A31A005DFC84 /* SendHistoryProgressView.swift in Sources */,
 				8382896C24332CF40054347B /* UIButton+Factory.swift in Sources */,
 				833181902433A05B00A8E18D /* ConstraintMaker+AspectRatio.swift in Sources */,
 				0EE60C4B242FF2C200D29048 /* GeneralAssembly.swift in Sources */,
 				0EE60BD0242F8A3C00D29048 /* InfoKeys+Value.swift in Sources */,
+				0E0B30F72437A337005DFC84 /* SendHistoryProgressModel.swift in Sources */,
 				838289BF24332FEE0054347B /* RegistrationSendCodeView.swift in Sources */,
 				877F3F792434B4F100F774C7 /* Data+HexString.swift in Sources */,
 				0EE60C52242FF40500D29048 /* FilesCoordinatorType.swift in Sources */,

@@ -37,7 +37,7 @@ internal enum L10n {
   internal static let dashboardGreenStatusTitle = L10n.tr("Localizable", "dashboard_green_status_title")
   /// Need to send us an email?
   internal static let dashboardInfoContactUsDescription = L10n.tr("Localizable", "dashboard_info_contact_us_description")
-  /// kontakt@protego.gov.pl
+  /// protego@mc.gov.pl
   internal static let dashboardInfoContactUsEmail = L10n.tr("Localizable", "dashboard_info_contact_us_email")
   /// Od godziny
   internal static let dashboardInfoFromTime = L10n.tr("Localizable", "dashboard_info_from_time")
@@ -93,7 +93,7 @@ internal enum L10n {
   internal static let dashboardYellowRecommend3 = L10n.tr("Localizable", "dashboard_yellow_recommend_3")
   /// More information %@.
   internal static func dashboardYellowRecommendMoreInfoBtn(_ p1: String) -> String {
-    return L10n.tr("Localizable", "dashboard_yellow_recommend_more_info_btn\n", p1)
+    return L10n.tr("Localizable", "dashboard_yellow_recommend_more_info_btn", p1)
   }
   /// here
   internal static let dashboardYellowRecommendMoreInfoBtnHere = L10n.tr("Localizable", "dashboard_yellow_recommend_more_info_btn_here")
@@ -145,7 +145,7 @@ internal enum L10n {
   internal static let registrationPhonePlaceholder = L10n.tr("Localizable", "registration_phone_placeholder")
   /// Send code
   internal static let registrationSendCodeBtn = L10n.tr("Localizable", "registration_send_code_btn")
-  /// Enter your phone number so that we can contact you if you were closed to people with SARS-CoV-2.\n\nWe will confirm your phone number by sending you an SMS code.
+  /// Enter your phone number so that we can contact you if you were close to people with SARS-CoV-2.\n\nWe will confirm your phone number by sending you an SMS code.
   internal static let registrationSendDescription = L10n.tr("Localizable", "registration_send_description")
   /// Join the application!
   internal static let registrationSendTitle = L10n.tr("Localizable", "registration_send_title")
@@ -169,6 +169,14 @@ internal enum L10n {
   }
   /// Thank you!
   internal static let sendDataAlertTitle = L10n.tr("Localizable", "send_data_alert_title")
+  /// Anuluj
+  internal static let sendDataConfirmationAlertCancelBtn = L10n.tr("Localizable", "send_data_confirmation_alert_cancel_btn")
+  /// Prześlij dane tylko w przypadku potwierdzenia u Ciebie zachorowania. 
+  internal static let sendDataConfirmationAlertMessage = L10n.tr("Localizable", "send_data_confirmation_alert_message")
+  /// Prześlij
+  internal static let sendDataConfirmationAlertSendBtn = L10n.tr("Localizable", "send_data_confirmation_alert_send_btn")
+  /// Na pewno chcesz przesłać historię?
+  internal static let sendDataConfirmationAlertTitle = L10n.tr("Localizable", "send_data_confirmation_alert_title")
   /// Share the list of users you encounteres nearby within last 2 weeks. Our experts will alert those who might be infected.\n\nNobody will learn about your condition.
   internal static let sendDataDescription = L10n.tr("Localizable", "send_data_description")
   /// xxx xxx xxx

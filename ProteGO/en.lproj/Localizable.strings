@@ -41,7 +41,7 @@
 "registration_send_title" = "Join the application!";
 
 /* Rejestracja */
-"registration_send_description" = "Enter your phone number so that we can contact you if you were closed to people with SARS-CoV-2.\n\nWe will confirm your phone number by sending you an SMS code.";
+"registration_send_description" = "Enter your phone number so that we can contact you if you were close to people with SARS-CoV-2.\n\nWe will confirm your phone number by sending you an SMS code.";
 
 /* Rejestracja */
 "registration_phone_placeholder" = "xxx xxx xxx";
@@ -110,8 +110,7 @@
 "dashboard_yellow_recommend_3" = "Total ban on gatherings, except with the closest ones.";
 
 /* Dashboard - status żółty */
-"dashboard_yellow_recommend_more_info_btn
-" = "More information %@.";
+"dashboard_yellow_recommend_more_info_btn" = "More information %@.";
 
 /* Dashboard - status żółty */
 "dashboard_yellow_recommend_more_info_btn_here" = "here";
@@ -198,7 +197,7 @@
 "dashboard_info_history_overview" = "Devices detected since %@: %@";
 
 /* Dashboard - ekran informacyjny */
-"dashboard_info_contact_us_email" = "kontakt@protego.gov.pl";
+"dashboard_info_contact_us_email" = "protego@mc.gov.pl";
 
 /* Dashboard - ekran informacyjny */
 "dashboard_info_terms_of_use_btn" = "ProteGO Terms of Use";
@@ -226,4 +225,16 @@
 
 /* Alert po wysłaniu danych */
 "send_data_alert_description" = "Your data was sent to GIS.\nWe guarantee nobody will use your personal data while contacting with other people.\n\nIf you have any questions please email as at %@\nor call %@";
+
+/* Ekran wysyłania danych - alert potwierdzający */
+"send_data_confirmation_alert_title" = "Na pewno chcesz przesłać historię?";
+
+/* Ekran wysyłania danych - alert potwierdzający */
+"send_data_confirmation_alert_message" = "Prześlij dane tylko w przypadku potwierdzenia u Ciebie zachorowania. ";
+
+/* Ekran wysyłania danych - alert potwierdzający */
+"send_data_confirmation_alert_cancel_btn" = "Anuluj";
+
+/* Ekran wysyłania danych - alert potwierdzający */
+"send_data_confirmation_alert_send_btn" = "Prześlij";
 

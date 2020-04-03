@@ -6,7 +6,10 @@ import Valet
 
 final class HistoryOverviewModel: HistoryOverviewModelType {
     var phoneId: String {
-        return self.valet.string(forKey: Constants.KeychainKeys.userIdKey) ?? L10n.dashboardInfoIdPlacehloder
+        guard let text = self.valet.string(forKey: Constants.KeychainKeys.userIdKey) else {
+            return L10n.dashboardInfoIdPlacehloder
+        }
+        return String(text.prefix(Int(floor(Double(text.count) * 0.25))))
     }
 
     var historyLastDate: BehaviorRelay<Date>

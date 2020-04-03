@@ -10,6 +10,10 @@ final class HistoryOverviewView: UIView {
         return bannerView.rightButtonTapEvent
     }
 
+    var sendHistoryButtonTapped: ControlEvent<Void> {
+        return sendHistoryButton.rx.tap
+    }
+
     var contactUsEmailButtonTapped: ControlEvent<Void> {
         return contactUsEmailButton.rx.tap
     }
@@ -118,7 +122,7 @@ final class HistoryOverviewView: UIView {
     private func createConstraints() {
         bannerView.snp.makeConstraints {
             $0.top.leading.trailing.equalToSuperview()
-            $0.height.equalTo(0.099 * UIScreen.height)
+            $0.height.equalTo(0.110 * UIScreen.height)
         }
 
         yourIdLabel.snp.makeConstraints {
