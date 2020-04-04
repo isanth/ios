@@ -83,6 +83,13 @@ final class DashboardViewController: UIViewController, CustomView {
 
 extension DashboardViewController: HistoryRootViewControllerDelegate {
     func sendHistoryFinished(result: Result<Void, Error>) {
-        logger.debug("Show success/failure dialog")
+        switch result {
+        case .success:
+            let resultDialog = SendHistoryResultDialogViewController()
+            resultDialog.modalPresentationStyle = .overCurrentContext
+            self.present(resultDialog, animated: false)
+        default:
+            break
+        }
     }
 }
