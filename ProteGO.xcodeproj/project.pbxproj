@@ -20,7 +20,6 @@
 		0E0B30F52437A32E005DFC84 /* SendHistoryProgressViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F42437A32E005DFC84 /* SendHistoryProgressViewModelType.swift */; };
 		0E0B30F72437A337005DFC84 /* SendHistoryProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F62437A337005DFC84 /* SendHistoryProgressModel.swift */; };
 		0E0B30F92437A342005DFC84 /* SendHistoryProgressModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0B30F82437A342005DFC84 /* SendHistoryProgressModelType.swift */; };
-		0E153F39242D43D100340838 /* RxSwiftExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3DD5B4242B764100C092E7 /* RxSwiftExt.framework */; };
 		0E22F9202434A117008AD8EB /* RedStatusCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22F91F2434A117008AD8EB /* RedStatusCard.swift */; };
 		0E22F9222434A486008AD8EB /* UIButton+BackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22F9212434A486008AD8EB /* UIButton+BackgroundColor.swift */; };
 		0E22F9252434A6F8008AD8EB /* GeneralRecommendationsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22F9242434A6F8008AD8EB /* GeneralRecommendationsCard.swift */; };
@@ -80,6 +79,8 @@
 		0E9DDA772430E12C002D879F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9DDA762430E12C002D879F /* AppDelegate.swift */; };
 		0EB372C7243871C700884C93 /* SendHistoryResultDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB372C6243871C700884C93 /* SendHistoryResultDialogView.swift */; };
 		0EB372C9243871D400884C93 /* SendHistoryResultDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB372C8243871D400884C93 /* SendHistoryResultDialogViewController.swift */; };
+		0EB372CB2438A20800884C93 /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB372CA2438A20800884C93 /* Lottie.framework */; };
+		0EB372D02438A39F00884C93 /* progressSpinnerGreen.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EB372CF2438A39F00884C93 /* progressSpinnerGreen.json */; };
 		0EB65C792435279300491507 /* HistoryOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB65C782435279300491507 /* HistoryOverviewView.swift */; };
 		0EB65C7B2435279E00491507 /* HistoryOverviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB65C7A2435279E00491507 /* HistoryOverviewModel.swift */; };
 		0EB65C7D243527A900491507 /* HistoryOverviewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB65C7C243527A900491507 /* HistoryOverviewModelType.swift */; };
@@ -269,7 +270,6 @@
 		0E22F92B2434DFD3008AD8EB /* DangerStatusCardTopModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerStatusCardTopModule.swift; sourceTree = "<group>"; };
 		0E22F92D2434DFDE008AD8EB /* DangerStatusCardBottomModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangerStatusCardBottomModule.swift; sourceTree = "<group>"; };
 		0E3DD5B3242B764100C092E7 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		0E3DD5B4242B764100C092E7 /* RxSwiftExt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwiftExt.framework; path = Carthage/Build/iOS/RxSwiftExt.framework; sourceTree = "<group>"; };
 		0E3DD5B5242B764100C092E7 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		0E3DD5B6242B764100C092E7 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		0E3DD5B7242B764100C092E7 /* SwiftTweaks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftTweaks.framework; path = Carthage/Build/iOS/SwiftTweaks.framework; sourceTree = "<group>"; };
@@ -326,6 +326,8 @@
 		0E9DDA762430E12C002D879F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EB372C6243871C700884C93 /* SendHistoryResultDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryResultDialogView.swift; sourceTree = "<group>"; };
 		0EB372C8243871D400884C93 /* SendHistoryResultDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendHistoryResultDialogViewController.swift; sourceTree = "<group>"; };
+		0EB372CA2438A20800884C93 /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		0EB372CF2438A39F00884C93 /* progressSpinnerGreen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = progressSpinnerGreen.json; sourceTree = "<group>"; };
 		0EB65C782435279300491507 /* HistoryOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOverviewView.swift; sourceTree = "<group>"; };
 		0EB65C7A2435279E00491507 /* HistoryOverviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOverviewModel.swift; sourceTree = "<group>"; };
 		0EB65C7C243527A900491507 /* HistoryOverviewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryOverviewModelType.swift; sourceTree = "<group>"; };
@@ -502,8 +504,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EB372CB2438A20800884C93 /* Lottie.framework in Frameworks */,
 				0EE60C5A242FFB3D00D29048 /* Valet.framework in Frameworks */,
-				0E153F39242D43D100340838 /* RxSwiftExt.framework in Frameworks */,
 				0E3DD5BD242B764100C092E7 /* Realm.framework in Frameworks */,
 				0E3DD5BF242B764100C092E7 /* RxSwift.framework in Frameworks */,
 				0E3DD5C0242B764100C092E7 /* RxCocoa.framework in Frameworks */,
@@ -685,6 +687,7 @@
 		0E3DD5B2242B764100C092E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0EB372CA2438A20800884C93 /* Lottie.framework */,
 				83252A21242FC728001E6D63 /* Reachability.framework */,
 				0EE60C59242FFB3D00D29048 /* Valet.framework */,
 				0EE60C34242FDB6A00D29048 /* Nimble.framework */,
@@ -695,7 +698,6 @@
 				0E3DD5B6242B764100C092E7 /* RxCocoa.framework */,
 				0E3DD5BB242B764100C092E7 /* RxRelay.framework */,
 				0E3DD5B5242B764100C092E7 /* RxSwift.framework */,
-				0E3DD5B4242B764100C092E7 /* RxSwiftExt.framework */,
 				0E3DD5BA242B764100C092E7 /* SnapKit.framework */,
 				0E3DD5B7242B764100C092E7 /* SwiftTweaks.framework */,
 				0E3DD5B8242B764100C092E7 /* Swinject.framework */,
@@ -870,6 +872,7 @@
 		0E965329242EB30C00ADD300 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0EB372CC2438A2C100884C93 /* LottieAnimations */,
 				0E5C2078242B63460038EF8B /* Assets.xcassets */,
 				8382898624332E310054347B /* Fonts */,
 				0E965327242EB25C00ADD300 /* GoogleService-Info.plist */,
@@ -1042,6 +1045,14 @@
 				0EB372C6243871C700884C93 /* SendHistoryResultDialogView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0EB372CC2438A2C100884C93 /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				0EB372CF2438A39F00884C93 /* progressSpinnerGreen.json */,
+			);
+			path = LottieAnimations;
 			sourceTree = "<group>";
 		};
 		0EB65C73243525C200491507 /* HistoryOverview */ = {
@@ -1893,6 +1904,7 @@
 				838289F7243333330054347B /* Poppins-ExtraLightItalic.otf in Resources */,
 				838289FD243333330054347B /* Poppins-MediumItalic.otf in Resources */,
 				838289FE243333330054347B /* Poppins-ExtraBold.otf in Resources */,
+				0EB372D02438A39F00884C93 /* progressSpinnerGreen.json in Resources */,
 				0EEE1F2224322EBA001D006A /* Localizable.strings in Resources */,
 				0E965328242EB25C00ADD300 /* GoogleService-Info.plist in Resources */,
 				838289F3243333330054347B /* Poppins-Light.otf in Resources */,

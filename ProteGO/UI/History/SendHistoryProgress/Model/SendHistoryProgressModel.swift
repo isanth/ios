@@ -15,7 +15,7 @@ final class SendHistoryProgressModel: SendHistoryProgressModelType {
     init() {
         // TODO Implement history sending
         let timer = Timer.init(
-            timeInterval: 1,
+            timeInterval: 5,
             repeats: false) { [weak self] _ in
                 self?.didSendHistorySubject.onNext(.success(()))
         }

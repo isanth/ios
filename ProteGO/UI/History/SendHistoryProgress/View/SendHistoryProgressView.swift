@@ -3,10 +3,18 @@ import UIKit
 import RxSwift
 import RxCocoa
 import SnapKit
+import Lottie
 
 final class SendHistoryProgressView: UIView {
 
     private let bannerView = BannerView(leftButtonImage: nil, rightButtonImage: nil)
+
+    private lazy var progressSpinner: AnimationView = {
+        let animationView = AnimationView(name: "progressSpinnerGreen")
+        animationView.loopMode = .loop
+        animationView.play()
+        return animationView
+    }()
 
     init() {
         super.init(frame: .zero)
@@ -20,13 +28,18 @@ final class SendHistoryProgressView: UIView {
     }
 
     private func addSubviews() {
-        self.addSubviews([self.bannerView])
+        self.addSubviews([self.bannerView, self.progressSpinner])
     }
 
     private func createConstraints() {
         bannerView.snp.makeConstraints {
             $0.top.leading.trailing.equalToSuperview()
             $0.height.equalTo(0.110 * UIScreen.height)
+        }
+
+        progressSpinner.snp.makeConstraints {
+            $0.centerX.centerY.equalToSuperview()
+            $0.height.width.equalTo(61)
         }
     }
 }
