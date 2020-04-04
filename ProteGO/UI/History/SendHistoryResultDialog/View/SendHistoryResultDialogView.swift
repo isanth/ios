@@ -6,8 +6,12 @@ import SnapKit
 
 final class SendHistoryResultDialogView: UIView {
 
-//    var closeButtonTapped: ControlEvent<Void> {
-//        return bannerView.rightButtonTapEvent
+    var closeButtonTapped: ControlEvent<Void> {
+        return closeButton.rx.tap
+    }
+
+//    var footerLabelTapped: ControlEvent<Void> {
+//        return closeButton.rx.tap
 //    }
 
     private let titleLabel: UILabel = {
@@ -27,6 +31,21 @@ final class SendHistoryResultDialogView: UIView {
           label.textAlignment = .center
           return label
       }()
+
+    private let footerLabel: UILabel = {
+        let label = UILabel(frame: .zero)
+        label.font = Fonts.poppinsBold(24).font
+        label.textColor = .white
+        label.numberOfLines = 0
+        label.textAlignment = .center
+        return label
+    }()
+
+    private let closeButton: UIButton = {
+        let button = UIButton()
+        button.setImage(Images.closeIcon, for: .normal)
+        return button
+    }()
 
     init(success: Bool) {
         super.init(frame: .zero)
